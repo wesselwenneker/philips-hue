@@ -3,7 +3,9 @@ body {
   color: yellow;
   background-color: green;
 }
-
+h1, .inputenknoppen{
+  text-align: center;
+}
 #h1_2 {
   text-align: center;
 }
@@ -11,36 +13,37 @@ body {
 lijst {
   display:table; margin:0 auto;
 }
-#over_ons, #onze_code, #home{
+.over_ons, .onze_code, .home{
   color: green;
   font-size: 29px;
+  padding-left:30%;
 }
 
 #link {
   color: yellow;
   font-size: 29px;
 }
-#tabel{
+.tabel{
   background-color: yellow;
   border-radius: 400px;
   width: 60%;
 }
 
-#onze_code:hover{
+.onze_code:hover{
   font-size: 35px;
 }
-#over_ons:hover{
-  font-size: 35px;
-}
-
-#home:hover{
+.over_ons:hover{
   font-size: 35px;
 }
 
-#link:hover{
+.home:hover{
   font-size: 35px;
 }
-#img, iframe{
+
+.link:hover{
+  font-size: 35px;
+}
+.img, iframe{
   border: 15px solid yellow;
   background-color: darkgreen;
   padding: 10px;
@@ -49,7 +52,7 @@ lijst {
 }
 th{
   border: 4px solid black;
-  border-color: solid black;
+  border-color: black;
   background-color: darkgreen;
   border-radius: 30px;
   width: 20%;
